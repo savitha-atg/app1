@@ -6,7 +6,7 @@
 
   <groupId>com.minigans</groupId>
   <artifactId>app1</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
 
   <name>app1</name>
   <!-- FIXME change it to the project's website -->
@@ -68,6 +68,11 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
+        </plugin>
+        <plugin>
+          <groupId>com.github.ferstl</groupId>
+          <artifactId>depgraph-maven-plugin</artifactId>
+          <version>4.0.1</version>
         </plugin>
       </plugins>
     </pluginManagement>
